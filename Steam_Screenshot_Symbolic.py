@@ -33,7 +33,7 @@ try:
                 '#以下にSteamがインストールされたディレクトリを入力してください(一行のみ)\n'
                 +steaminstdir+'\n'
                 '#以下にsteamappsを別の場所に置いている場合は追加で入力してください(複数行可)\n'
-                '#例:/home/akatorih0913/.steam/steam/steamapps\n')
+                '#例:/home/[ユーザー名]/.steam/steam/steamapps\n')
         
         f.write(text)
 except FileExistsError:
